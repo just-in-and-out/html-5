@@ -1,23 +1,52 @@
 <head>
   <style>
+  m{}
+  article, footer, header, photos{
+    margin: auto;
+    width: 1020px;
+    background-color: rgb(255, 234, 234);
+    padding: 20px;
+  }
+  div{
+    width: 500px;
+    height: 303px;
+    display: inline;
+    float: middle;
+  }
+  article{
+    height: 1350px;
+  }
   p{
     width: 32%;
   }
-p#t1{
+  p#t1{
   display: inline;
       width: 32%;
     float: left;
- }
- p#t2{
+  }
+  p#t2{
    display: inline;
      float: middle;
- }
-p#t3{
+  }
+  p#t3{
    display: inline;
      float: right;
- }
+  }
  img{
       display: inline;
+      float: left;
  }
+ a{
+   color: blue;
+
+ }
+ footer{
+   background-color: rgb(166, 166, 166);
+   height: 100px;
+ }
+ footer a{
+   color: white;
+ }
+ m{}
  </style>
  </head>
